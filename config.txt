@@ -1,0 +1,28 @@
+# Git Branching Workflow Demo Configuration
+# This file is used to demonstrate merge conflicts
+
+# Application Version
+version=1.0.0
+
+# Deployment Environment
+environment=production
+
+# Feature Flags
+feature_flag=false
+debug_mode=false
+
+# Database Configuration
+db_host=localhost
+db_port=5432
+
+# API Configuration
+api_timeout=30
+max_retries=3
+
+# Logging
+log_level=info
+enable_audit_log=true
+
+# Git Workflow Specific Settings
+branch_strategy=gitflow
+conflict_demo_enabled=true

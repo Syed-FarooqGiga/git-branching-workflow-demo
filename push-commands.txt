@@ -1,0 +1,47 @@
+# Git Commands to Push Project to GitHub Repository
+# Run these commands one by one in your terminal (Git Bash or VS Code Terminal)
+
+## Step 1: Navigate to your project folder
+cd "c:/Users/Syed Farooq/Desktop/git-branching-workflow-demo"
+
+## Step 2: Initialize Git repository
+git init
+
+## Step 3: Add all files to staging
+git add .
+
+## Step 4: Create initial commit
+git commit -m "Initial commit: base Git branching workflow demo"
+
+## Step 5: Set main as default branch
+git branch -M main
+
+## Step 6: Add remote repository (your GitHub repo)
+git remote add origin https://github.com/AbuTalha06/projdev.git
+
+## Step 7: Push to main branch
+git push -u origin main
+
+## Step 8: Create and push develop branch
+git checkout -b develop
+git push -u origin develop
+
+## Step 9: Create and push feature branch
+git checkout develop
+git checkout -b feature-login
+git push -u origin feature-login
+
+## Step 10: Create and push hotfix branch
+git checkout main
+git checkout -b hotfix-ui-bug
+git push -u origin hotfix-ui-bug
+
+## Step 11: Verify all branches are created
+git branch -a
+
+## Step 12: Check push status
+git remote -v
+
+echo "=== Setup Complete! ==="
+echo "Repository: https://github.com/AbuTalha06/projdev"
+echo "You can now view your branches on GitHub"
