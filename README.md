@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Git Branching Workflow Demonstration
 
 A comprehensive DevOps case study project demonstrating Git branching strategies, merge workflows, and conflict resolution using a simple web-based demo application.
@@ -164,7 +163,7 @@ This is an educational project. For modifications or improvements:
 **Project:** Git Branching Workflow Demonstration  
 **Course:** DevOps – Ability Enhancement Course – V (5th Semester)  
 **Type:** Educational Case Study  
-**Team Size:** 2 Members
+**Team Size:** 3 Members
 =======
 # git-branching-workflow-demo
 >>>>>>> ed73aa26e5b807a306f81968a4c355c70e688428
